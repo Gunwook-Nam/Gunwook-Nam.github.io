@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: home
 title: Gun Book
 # description: >
 # some description
