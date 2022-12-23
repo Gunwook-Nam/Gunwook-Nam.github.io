@@ -8,7 +8,7 @@ gw:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    KAIST CBE에서 머신러닝으로 화학을 공부하고 있습니다.
+    KAIST Chemical and Biomolecular Engineering에서 머신러닝으로 화학을 공부하고 있습니다.
     
     학부에서 화학공학을 배운 덕에 더 넓은 시야를 가졌지만 머신러닝도 화학도 새로 공부하느라 애를 먹고 있습니다.
 
