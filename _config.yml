@@ -24,9 +24,9 @@ title:                 Gun Book
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
+# 카톡으로 링크 보낼 때 작게 나오는 설명.
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Chemistry and machine learning records for my limited memory.
 
 # A shorter description for the sidebar.
 tagline:               Doodles for machine learning and chemistry
