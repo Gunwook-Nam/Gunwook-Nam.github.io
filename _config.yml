@@ -84,7 +84,7 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
+# theme: jekyll-theme-hydejack  # 로컬에서 볼 jekyll serve할 때면 켜기
 remote_theme: hydecorp/hydejack@v9
 
 
