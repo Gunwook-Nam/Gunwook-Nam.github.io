@@ -317,9 +317,9 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - LICENSE.md
 include:
   - .well-known
-  - LICENSE.md
 
 
 # Plugins
