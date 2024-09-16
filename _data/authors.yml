@@ -3,14 +3,12 @@
 # Change `author1` to your shortname.
 gw:
   name:              Gunwook Nam
-  email:             gunwook@kaist.ac.kr
+  email:             gunwook@snu.ac.kr
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    KAIST Chemical and Biomolecular Engineering에서 머신러닝으로 화학을 공부하고 있습니다.
-    
-    학부에서 화학공학을 배운 덕에 더 넓은 시야를 가졌지만 머신러닝도 화학도 새로 공부하느라 애를 먹고 있습니다.
+    서울대학교 화학생물공학부에서 머신러닝으로 화학을 공부하고 있습니다.
 
     머리를 비우도록 도와주는 달리기나 배드민턴을 좋아합니다.
 
@@ -28,7 +26,7 @@ gw:
   social:
     # twitter:         <username>
     github:          Gunwook-Nam
-    email:           gunwook@kaist.ac.kr
+    email:           gunwook@snu.ac.kr
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
