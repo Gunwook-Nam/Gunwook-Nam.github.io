@@ -53,12 +53,12 @@ menu:
   #   url:               /example/
   # - title:             Documentation
   #   url:               /docs/
+  - title:             About
+    url:               /about/
   - title:             Chemistry
     url:               /chemistry/
   - title:             Machine Learning
     url:               /machine_learning/
-  - title:             About
-    url:               /about/
   - title:             Tools
     url:               /tools/
 
