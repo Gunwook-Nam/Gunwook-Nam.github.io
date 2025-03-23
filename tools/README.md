@@ -12,7 +12,6 @@ permalink: /tools/
 
 
 ## Python
-### 
 * [Mamba]{:.heading.flip-title} --- conda냐 mamba냐
 {:.related-posts.faded}
 
