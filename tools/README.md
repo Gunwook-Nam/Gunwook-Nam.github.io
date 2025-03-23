@@ -12,7 +12,7 @@ permalink: /tools/
 
 
 ## Python
-* [Mamba]{:.heading.flip-title} --- conda냐 mamba냐
+* [mamba]{:.heading.flip-title} --- conda냐 mamba냐
 {:.related-posts.faded}
 
-[Mamba]: mamba
+[mamba]: mamba
