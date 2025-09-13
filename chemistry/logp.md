@@ -8,10 +8,11 @@ sitemap: false
 ---
 ## log-Partition coefficient (logP)
 
-`logP`는 octanol-water partition coefficient $(P)$의 $\log$값으로, 분자의 소수성(hydrophobicity)을 나타내는 대표 지표이다. 의약품을 설계할 때 흡수, 분포, 대사, 배설(ADME) 특성 평가에 활용한다.
+`logP`는 octanol-water partition coefficient $$(P)$$의 $$\log$$값으로, 분자의 소수성(hydrophobicity)을 나타내는 대표 지표이다. 의약품을 설계할 때 흡수, 분포, 대사, 배설(ADME) 특성 평가에 활용한다.
 
-### 1. Partition coefficient $(P)$
-분배계수 $P$는 평형 상태에서 각 용매 속 용질의 농도 비율로 정의한다:
+### 1. Partition coefficient $$(P)$$
+분배계수 $$P$$는 평형 상태에서 각 용매 속 용질의 농도 비율로 정의한다:
+
 $$
 P = \frac{[\text{solute}]_{\text{octanol}}}{[\text{solute}]_{\text{water}}}
 $$
@@ -19,7 +20,7 @@ $$
 P는 무차원 지표로 몰 농도, 질량 농도 등 농도의 단위는 다양하다.
 
 ### 2. logP 값의 의미
-분자의 특징은 $\log P=0$을 기준으로 음수이면 친수성, 양수이면 소수성으로 구분한다. 1997년 Pfizer의 Lipinski는 [Lipinski’s Rule of Five](https://doi.org/10.1016/S0169-409X(96)00423-1)에서 경구 약물들의 4가지 공통점을 찾았는데, 그 중 $C\log P\le 5$ 조건(Calculated logP)이 포함된다. 이는 장에서 흡수되는 "경구" 약물은 혈액과 같은 수용액 환경에 잘 녹아야 하지만, 동시에 소장 상피세포막의 인지질 이중층을 통과하기 위해서는 상당한 소수성 (친수성에 비해 최대 10만배)을 가질 필요성을 암시한다.
+분자의 특징은 $$\log P=0$$을 기준으로 음수이면 친수성, 양수이면 소수성으로 구분한다. 1997년 Pfizer의 Lipinski는 [Lipinski’s Rule of Five](https://doi.org/10.1016/S0169-409X(96)00423-1)에서 경구 약물들의 4가지 공통점을 찾았는데, 그 중 $$C\log P\le 5$$ 조건(Calculated logP)이 포함된다. 이는 장에서 흡수되는 "경구" 약물은 혈액과 같은 수용액 환경에 잘 녹아야 하지만, 동시에 소장 상피세포막의 인지질 이중층을 통과하기 위해서는 상당한 소수성 (친수성에 비해 최대 10만배)을 가질 필요성을 암시한다.
 
 ### 3. logP 측정 방법
 
