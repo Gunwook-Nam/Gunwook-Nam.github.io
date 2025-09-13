@@ -20,16 +20,16 @@ $$
 P는 무차원 지표로 몰 농도, 질량 농도 등 농도의 단위는 다양하다.
 
 ### 2. logP 값의 의미
-분자의 특징은 $$\log P=0$$을 기준으로 음수이면 친수성, 양수이면 소수성으로 구분한다. 1997년 Pfizer의 Lipinski는 [Lipinski’s Rule of Five](https://doi.org/10.1016/S0169-409X(96)00423-1)에서 경구 약물들의 4가지 공통점을 찾았는데, 그 중 $$C\log P\le 5$$ 조건(Calculated logP)이 포함된다. 이는 장에서 흡수되는 "경구" 약물은 혈액과 같은 수용액 환경에 잘 녹아야 하지만, 동시에 소장 상피세포막의 인지질 이중층을 통과하기 위해서는 상당한 소수성 (친수성에 비해 최대 10만배)을 가질 필요성을 암시한다.
+분자의 특징은 $$\log P=0$$을 기준으로 음수이면 친수성, 양수이면 소수성으로 구분한다. 1997년 Pfizer의 Lipinski는 [Lipinski’s Rule of Five](https://doi.org/10.1016/S0169-409X(96)00423-1)에서 경구 약물들의 4가지 공통점을 찾았는데, 그 중 $$C\log P\le 5$$ 조건이 포함된다. 이는 입으로 섭취하는 경구" 약물은 소장 상피세포막의 인지질 이중층을 통과해야 체내로 흡수되는데, 이를 위해서는 상당한 소수성 (친수성에 비해 최대 10만배)을 가질 필요성을 암시한다.
 
 ### 3. logP 측정 방법
 
 #### a. 계산적 예측법
-대량 분자를 선별하기 위해서는 계산으로 logP 값을 예측하는 방법이 중요하다. 이렇게 계산(예측)된 값은 실험으로 측정한 값과 구분하기 위해 calculated-를 앞에 붙이기도 한다. (ClogP) 대표적인 방법은 fragment constant와 atom-additive 방법 등이 있다.
+대량 분자를 선별하기 위해서는 계산으로 logP 값을 예측하는 방법이 중요하다. 이렇게 계산(예측)된 값은 실험으로 측정한 값과 구분하기 위해 calculated-를 앞에 붙이기도 한다. (ClogP) 대표적인 계산 방법은 fragment constant와 atom-additive 방법 등이 있다.
 
-logP 계산은 1970년대부터 이루어지고 있었다. 그 중 Hansch-Leo계열 방법이 가장 대표적이다. 치환기(fragment)마다 기여도와 상수값을 정의하고 더하는 방법이다.
+logP 계산은 1970년대부터 이루어지고 있었다. 가장 대표적인 방법은 Hansch-Leo계열이다. 이들은 치환기(fragment)마다 기여도와 상수값을 정의하고 분자에 포함된 모든 치환기에 해당하는 기여도와 상수값을 곱하여 더하는 방식으로 분자의 logP를 계산했다.
 
-[Wildman and Crippen](https://pubs.acs.org/doi/10.1021/ci990307l)은 1999년에 68개의 원소마다 기여도를 정의하고, 원자 기여도의 합으로 logP를 계산하는 방법을 제시했다. RDkit의 `Crippen` [모듈](https://www.rdkit.org/docs/source/rdkit.Chem.Crippen.html)에는 이 파라미터들이 구현되어 있어서 편리하고 빠르게 사용할 수 있다.
+1999년 [Wildman and Crippen](https://pubs.acs.org/doi/10.1021/ci990307l)은 68개의 원소마다 기여도를 정의하고, 원자 기여도의 합으로 logP를 계산하는 방법을 제시했다. RDkit의 `Crippen` [모듈](https://www.rdkit.org/docs/source/rdkit.Chem.Crippen.html)에는 이 파라미터들이 구현되어 있어서 편리하고 빠르게 사용할 수 있다. 특히 이 방법은 원자마다 정의된 값을 찾은 다음, 간단한 연산으로 분자의 logP를 구할 수 있기 때문에 대량의 데이터가 필요한 machine learning 분야에서 활발하게 사용하고 있다. 예를 들어 대량의 후보를 평가하거나, machine learning model의 학습 데이터나 평가 데이터를 생성할 때 유용하게 사용할 수 있다.
 
 ```python
 from rdkit import Chem
