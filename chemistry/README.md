@@ -8,20 +8,21 @@ sitemap: false
 permalink: /chemistry/
 ---
 
-머신러닝을 공부하면서 필요한 화학 지식을 정리했습니다.
+머신러닝을 공부하면서 필요한 화학 지식
 
 
-## Molecular Property for Drug Design
-* [logp]{:.heading.flip-title} --- 용해도, 바로 계산할 수 있는 물성이다.
-* [QED]{:.heading.flip-title} --- 약물 적합도, 바로 계산할 수 있는 물성.
+## Drug Design
+### Molecular properties
+* [logP]{:.heading.flip-title} --- partition coefficient
+* [QED]{:.heading.flip-title} --- 
 {:.related-posts.faded}
 
-## Molecule Descriptors
+### Structure descriptiors
 * [Fingerprint]{:.heading.flip-title} --- 분자의 지문, 분자를 모양으로 구분한다.
 * [MACCS Key]{:.heading.flip-title} --- 분자의 값, 분자를 단위체로 구분한다.
 {:.related-posts.faded}
 
-## Synthesizability Score
+### Synthesizability score
 * [SAScore]{:.heading.flip-title} --- 합성가능성, 
 * [SCScore]{:.heading.flip-title} --- 합성가능성, 
 * [RAScore]{:.heading.flip-title} --- 합성가능성, 

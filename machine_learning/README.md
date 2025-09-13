@@ -8,7 +8,7 @@ sitemap: false
 permalink: /machine_learning/
 ---
 
-화학을 공부하면서 필요한 머신러닝을 지식을 정리했습니다.
+화학을 공부하면서 필요한 머신러닝 지식
 
 
 ## Deep Learning
