@@ -1,6 +1,6 @@
 # Gun Book
 
-Personal blog for studying chemistry and machine learning
+Personal blog for studying quantum chemistry and machine learning
 
 [Page Link](https://gunwook-nam.github.io/)
 

@@ -22,16 +22,7 @@ permalink: /chemistry/
 * [MACCS Key]{:.heading.flip-title} --- 분자의 값, 분자를 단위체로 구분한다.
 {:.related-posts.faded}
 
-### Synthesizability score
-* [SAScore]{:.heading.flip-title} --- 합성가능성, 
-* [SCScore]{:.heading.flip-title} --- 합성가능성, 
-* [RAScore]{:.heading.flip-title} --- 합성가능성, 
-{:.related-posts.faded}
-
 [logp]: logp
 [QED]: qed
 [Fingerprint]: fingerprint
 [MACCS Key]: maccskey
-[SAScore]: sascore
-[SCScore]: scscore
-[RAScore]: rascore

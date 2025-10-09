@@ -25,16 +25,16 @@ permalink: /machine_learning/
 {:.related-posts.faded}
 
 ## Generative Model
-* [VAE]{:.heading.flip-title} --- 분자의 지문, 분자를 모양으로 구분한다.
-* [GAN]{:.heading.flip-title} --- 분자의 지문, 분자를 모양으로 구분한다.
-* [Diffusion Model]{:.heading.flip-title} --- 분자의 지문, 분자를 모양으로 구분한다.
+* [VAE]{:.heading.flip-title}
+* [GAN]{:.heading.flip-title}
+* [Diffusion Model]{:.heading.flip-title}
 {:.related-posts.faded}
 
 ## Machine Learning
-* [Kernel Ridge Regression]{:.heading.flip-title} --- Regression
-* [Support Vector Machine]{:.heading.flip-title} --- 고차원으로 만들자.
-* [Random Forest]{:.heading.flip-title} --- 여러 가지 나무를 모으자.
-* [Reinforcement Learning]{:.heading.flip-title} --- 시행착오로 배우자.
+* [Kernel Ridge Regression]{:.heading.flip-title}
+* [Support Vector Machine]{:.heading.flip-title}
+* [Random Forest]{:.heading.flip-title}
+* [Reinforcement Learning]{:.heading.flip-title}
 {:.related-posts.faded}
 
 [Regression]: regression
