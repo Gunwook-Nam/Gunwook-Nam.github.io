@@ -16,3 +16,9 @@ permalink: /tools/
 {:.related-posts.faded}
 
 [mamba]: mamba
+
+## Linux
+* [shell]{:.heading.flip-title} --- Linux shells
+{:.related-posts.faded}
+
+[shell]: shell
