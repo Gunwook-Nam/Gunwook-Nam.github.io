@@ -1,8 +1,0 @@
-email:
-  name: Email
-  icon: icon-mail
-  prepend: 'mailto:'
-github:
-  name: GitHub
-  icon: icon-github
-  prepend: 'https://github.com/'
