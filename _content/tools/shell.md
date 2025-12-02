@@ -9,7 +9,7 @@ sitemap: false
 
 # 1. Bourne Shell과 C Shell의 분류
 
-리눅스 쉘은 크게 **Bourne Shell (sh)** 계열과 **C Shell (csh)** 계열로 나뉩니다. 두 계열은 문법과 환경 변수 설정 방식에서 차이를 보인다.
+리눅스 쉘은 크게 **Bourne Shell (sh)** 계열과 **C Shell (csh)** 계열로 나뉜다. 두 계열은 문법과 환경 변수 설정 방식에서 차이를 보인다.
 
 ## Bourne Shell 계열 (Bash, Zsh)
 유닉스의 표준인 `sh`를 계승한 계열이다. 현재 리눅스와 macOS에서 기본적으로 사용하는 쉘이 대부분 여기에 속한다.
