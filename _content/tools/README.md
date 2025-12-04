@@ -18,7 +18,7 @@ permalink: /tools/
 [mamba]: mamba
 
 ## Linux
-* [shell]{:.heading.flip-title} --- Linux shells
+* [Shell]{:.heading.flip-title} --- Unix shells and Scripts
 {:.related-posts.faded}
 
 [shell]: shell

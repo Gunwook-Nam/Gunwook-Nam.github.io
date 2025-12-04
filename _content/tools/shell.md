@@ -7,7 +7,7 @@ hide_description: false
 sitemap: false
 ---
 
-# Unix Shell과 스크립트
+# Unix Shell과 Script
 
 ## 1. Unix Shell
 
