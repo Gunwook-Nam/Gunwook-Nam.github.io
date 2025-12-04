@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Chemistry for Machine Learning
+title: Chemistry
 description: >
-  Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
+  머신러닝을 공부하면서 필요한 화학 지식
 hide_description: true
 sitemap: false
 permalink: /chemistry/

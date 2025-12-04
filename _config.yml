@@ -20,7 +20,7 @@
 lang:                  ko-KR
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Gun Book
+title:                 Gunwook's Doodle
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -47,11 +47,15 @@ author:
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
+# Social media icons in sidebar
+social:
+  github:              Gunwook-Nam
+
 # Add links to the sidebar.
 menu:
   - title:             About
     url:               /about/
-  - title:             Quantum Chemistry
+  - title:             Chemistry
     url:               /chemistry/
   - title:             Machine Learning
     url:               /machine_learning/
@@ -82,8 +86,8 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack  # 로컬에서 볼 jekyll serve할 때면 켜기
-remote_theme: hydecorp/hydejack@v9
+theme: jekyll-theme-hydejack  # 로컬에서 볼 jekyll serve할 때면 켜기
+# remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
@@ -320,6 +324,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE.md
+  - WRITING_GUIDE.md
 include:
   - .well-known
 

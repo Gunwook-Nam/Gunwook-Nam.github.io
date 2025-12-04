@@ -2,7 +2,7 @@
 layout: page
 title: Tools
 description: >
-  Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
+  인공지능 화학을 공부할 때 유용한 도구들
 hide_description: true
 sitemap: false
 permalink: /tools/

@@ -1,13 +1,13 @@
 ---
 layout: page
-title: 패키지 관리 프로그램: conda와 mamba
+title: Mamba
 description: >
-  Python 패키지 관리 도구인 conda와 mamba의 특징 및 사용법 소개.
+  Python 패키지 관리 도구
 hide_description: false
 sitemap: false
 ---
 
-# mamba 소개 및 설치 가이드
+# Mamba 소개 및 설치 가이드
 
 ## 개요: 패키지 관리는 왜 해야 할까?
 Python 패키지는 서로 의존성을 갖는다. 그런데 개별 패키지는 구성을 바꾸거나, 함수를 삭제하거나, 기능이 통합되는 등 끊임없이 발전하고, 이는 다른 패키지에서 충돌이 발생하거나 오작동을 일으킨다. 따라서 패키지, 더 크게는 프로젝트마다 사용하는 패키지 버전을 고정해야 안정적으로 실행 환경을 유지할 수 있다.
