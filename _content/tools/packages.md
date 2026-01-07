@@ -7,7 +7,7 @@ hide_description: false
 sitemap: false
 ---
 
-# Default Python Packages
+# Python Packages
 
 편의를 위한 default Python packges를 정리한다.
 
@@ -29,7 +29,7 @@ def add_int_typing(data1: int, data2: int) -> int:
 자료형을 안 쓰면 Any로 나와서 도움이 안 된다.
 
 ![](../../assets/img/typing.png)
-자료형(`int)을 명시하면 다른 스크립트에서 사용할 때 알 수 있다.
+자료형(`int`)을 명시하면 다른 스크립트에서 사용할 때 알 수 있다.
 
 모든 경우에 다 자료형을 쓸 필요는 없지만, 패키지로 만들어서 다른 스크립트에서 사용할 함수인 경우 자료형을 명시하는 것이 편리하다.
 
