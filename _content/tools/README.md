@@ -17,6 +17,11 @@ permalink: /tools/
 
 [mamba]: mamba
 
+* [packages]{:.heading.flip-title} --- default Python packages
+{:.related-posts.faded}
+
+[packages]: packages
+
 ## Linux
 * [Shell]{:.heading.flip-title} --- Unix shells and Scripts
 {:.related-posts.faded}
